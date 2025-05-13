@@ -1,37 +1,46 @@
-Renewable Energy and Electricity Demand Analysis
-This repository contains the dataset, RapidMiner project file, and a comprehensive report for analyzing electricity demand and renewable energy generation trends across England and Wales, using data from 2009 to 2024. The analysis explores the relationship between electricity demand, renewable energy generation (wind and solar), and energy flows between regions. Additionally, it includes advanced analysis, prediction models, and key findings based on the data.
+🌍 Renewable Energy and Electricity Demand Analysis
+This repository contains an in-depth analysis of electricity demand patterns and renewable energy generation trends using publicly available data from 2009 to 2024. The project focuses on exploring relationships between electricity demand, wind and solar generation, and energy flows across regions in the UK, particularly in England and Wales. The repository includes the dataset, RapidMiner project file, and report summarizing the findings.
 
-Repository Contents
-Dataset: A dataset containing hourly data on electricity demand and renewable energy generation, spanning from 2009 to 2024. The dataset includes key attributes such as Demand_England_Wales, Wind_Generation, Solar_Generation, and interconnector flows with neighboring countries.
+📁 Repository Contents
+historic_demand_2009_2024_noNaN.xlsx – The cleaned dataset containing hourly data on electricity demand, renewable energy generation (wind and solar), and energy flows between regions.
 
-RapidMiner File: A RapidMiner project file that includes the data exploration, feature engineering, and model comparisons (Decision Tree, Random Forest, and Gradient Boosting) for predicting electricity demand or renewable energy generation.
+DA_Process.rmp – The RapidMiner project file used to analyze the dataset, perform exploratory data analysis (EDA), and run prediction models.
 
-Report: The full report detailing the dataset, methodology, analysis, findings, and model evaluation results. The report also includes visualizations and insights on trends, correlations, and interdependencies between electricity demand and renewable generation.
+Data_Analytics.docx – The detailed report summarizing key findings, visualizations, and analysis results.
 
-How to Use
-Download the Dataset: Access the dataset from the data folder in this repository.
+README.md – This file.
 
-Open the RapidMiner File: Use RapidMiner to load the dataset, perform exploratory data analysis (EDA), and run the models. The project file includes all necessary steps.
+📌 Project Overview
+The goal of this project is to explore electricity demand and renewable energy generation patterns in the UK, and assess how well wind and solar power can meet demand, particularly during peak times. The dataset spans from 2009 to 2024 and includes data on electricity use, wind generation, solar generation, and cross-border energy flows.
 
-Generate Insights: The report provides an in-depth explanation of the analysis, including insights from both exploratory and advanced analyses.
+🛠️ Key Steps Performed
+Data Exploration: Investigated key demand and generation attributes, including Demand_England_Wales, Wind_Generation, and Solar_Generation.
 
-Key Findings
-Hourly Demand Trends: Demand patterns peak during working hours and dip at night.
+Feature Engineering: Added new features such as seasonal trends, demand and generation correlations, and interconnector flows.
 
-Seasonal Renewable Generation: Wind generation peaks in winter, while solar generation peaks in summer, suggesting a complementary renewable energy mix.
+Modeling: Evaluated multiple prediction models (Decision Tree, Random Forest, Gradient Boosting) to forecast electricity demand.
 
-Demand and Generation Correlation: Wind and solar generation do not always align with peak demand, requiring storage solutions.
+Visualization: Created graphs such as hourly demand trends, seasonal renewable generation, and cross-border energy flows to explore patterns and dependencies.
 
-Cross-Border Electricity Flow: France and the Netherlands are the major contributors to electricity imports, with France showing consistent supply patterns.
+📈 Main Insights
+Hourly Demand Trends: Peak electricity demand occurs during working hours (10 AM to 7 PM), while demand decreases in the late evening.
 
-Models Used
-Decision Tree: A simple model for predicting electricity demand, showing strong alignment with actual values.
+Seasonal Renewable Generation: Wind generation peaks in winter, while solar generation is highest in summer, complementing each other to balance demand.
 
-Random Forest: Less accurate for this dataset, with higher errors compared to Decision Tree and Gradient Boosting.
+Demand vs. Renewable Generation: Renewable generation does not fully match peak demand times, indicating a need for energy storage solutions.
 
-Gradient Boosting: The best-performing model, offering high accuracy and close correlation with actual data.
+Electricity Flow Across Borders: France and the Netherlands play significant roles in supplying electricity, with variations based on domestic demand and policy changes.
 
-Requirements
-RapidMiner: The project was developed using RapidMiner Studio. Download the latest version of RapidMiner to open and run the file.
+🧰 Tools Used
+RapidMiner for data processing, EDA, and model building
 
-Libraries: Ensure necessary libraries and extensions for data processing and model building are installed in RapidMiner.
+Microsoft Word for report generation
+
+Markdown for documentation and reproducibility
+
+📑 How to Run
+Download the Dataset: Access the dataset from the historic_demand_2009_2024_noNaN.xlsx file in this repository.
+
+Open the RapidMiner File: Open the DA_Process.rmp project in RapidMiner to run the analysis and generate the models.
+
+Review the Report: The Data_Analytics.docx contains detailed analysis, visualizations, and model evaluation results.
