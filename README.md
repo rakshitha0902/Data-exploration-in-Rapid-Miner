@@ -2,11 +2,11 @@
 This repository contains an in-depth analysis of electricity demand patterns and renewable energy generation trends using publicly available data from 2009 to 2024. The project focuses on exploring relationships between electricity demand, wind and solar generation, and energy flows across regions in the UK, particularly in England and Wales. The repository includes the dataset, RapidMiner project file, and report summarizing the findings.
 
 📁 Repository Contents
-historic_demand_2009_2024_noNaN.xlsx – The cleaned dataset containing hourly data on electricity demand, renewable energy generation (wind and solar), and energy flows between regions.
+Dataset.csv – The cleaned dataset containing hourly data on electricity demand, renewable energy generation (wind and solar), and energy flows between regions.
 
-DA_Process.rmp – The RapidMiner project file used to analyze the dataset, perform exploratory data analysis (EDA), and run prediction models.
+Process.rmp – The RapidMiner project file used to analyze the dataset, perform exploratory data analysis (EDA), and run prediction models.
 
-Data_Analytics.docx – The detailed report summarizing key findings, visualizations, and analysis results.
+Report.docx – The detailed report summarizing key findings, visualizations, and analysis results.
 
 README.md – This file.
 
